@@ -1,0 +1,19 @@
+# Virtual env
+venv*/
+__pycache__/
+*.pyc
+
+# Datasets & Artifacts
+artifacts/
+.cache/
+*.h5
+*.json
+*.pkl
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log

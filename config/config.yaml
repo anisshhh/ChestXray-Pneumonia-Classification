@@ -1,0 +1,17 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  dataset_name: chest-xray-pneumonia
+
+prepare_base_model:
+  root_dir: artifacts/prepare_base_model
+  base_model_path: artifacts/prepare_base_model/base_model.h5
+
+training:
+  root_dir: artifacts/training
+  trained_model_path: artifacts/training/model.h5
+
+evaluation:
+  root_dir: artifacts/evaluation
+  scores_path: artifacts/evaluation/scores.json
